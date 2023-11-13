@@ -1,0 +1,208 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(1,1,12,1) 25%, rgba(0,0,75,1) 59%, rgba(75,75,158,1) 89%, rgba(255,255,255,1) 100%);
+    flex-wrap: wrap;
+}
+.contanier {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+.header_titleblock {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+.header_nav {  
+}
+.header_a {
+    font-size: 18px;
+    text-decoration: 0;
+    padding: 0 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+.header_a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: .3s;
+}
+.header_title{
+    color:white;
+    font-size: 35px;
+}
+
+.main_title{
+    font-size: 30px;
+    font-family: "Times New Roman";
+    margin-left: 600px;
+    color:white;
+    
+    
+}
+
+
+
+.main_subtitle{
+    font-size:25px;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+}
+.main_section{
+    width: 100%;
+    height: 60vh;
+    background:url("https://www.titanium.lv/wp-content/uploads/2019/03/2019.03-MODUB-1-Tasca-Dubai-Skyline-View-e1553718096660.jpg") center no-repeat;
+    background-size: cover;
+    margin-top:60px;
+    
+}
+
+.img_back{
+    margin-top: 100px;
+    margin-left: 250px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 6px 6px rgb(146, 112, 61);
+}
+
+.opis_photo{
+    font-size: 17px;
+    width: 310px;
+    margin-top: -180px;
+    margin-left:320px;
+    text-shadow: 3px 2px 2px rgb(119, 119, 119); 
+    color:white;
+}
+
+.img_back1{
+    margin-top: 100px;
+    margin-left: 750px;
+    flex-wrap: wrap;
+    width: 370px;
+    height: 300px;
+    box-shadow: 1px 1px 6px 6px rgb(146, 112, 61);
+}
+
+.opis_photo1{
+    font-size: 17px;
+    width: 310px;
+    margin-top: -180px;
+    margin-left:390px;
+    text-shadow: 3px 2px 2px rgb(119, 119, 119); 
+    color:white;
+}
+
+.img_back2{
+    margin-top: 100px;
+    margin-left: 250px;
+    flex-wrap: wrap;
+    width: 370px;
+    height: 300px;
+    box-shadow: 1px 1px 6px 6px rgb(146, 112, 61);
+}
+
+.opis_photo2{
+    font-size: 17px;
+    width: 310px;
+    margin-top: -180px;
+    margin-left:390px;
+    text-shadow: 3px 2px 2px rgb(119, 119, 119); 
+    color:rgb(255, 255, 255);
+}
+
+.img_back3{
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-left: 750px;
+    width: 370px;
+    height: 300px;
+    box-shadow: 1px 1px 6px 6px rgb(167, 130, 76);
+}
+
+.opis_photo3{
+    font-size: 17px;
+    width: 310px;
+    margin-top: -180px;
+    margin-left:390px;
+    text-shadow: 3px 2px 2px rgb(119, 119, 119); 
+    color:white;
+}
+
+.img_back4{
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    box-shadow: 1px 1px 6px 6px rgb(196, 153, 90);
+    width: 370px;
+    height: 300px;
+}
+
+.opis_photo4{
+    font-size: 17px;
+    width: 310px;
+    margin-top: -180px;
+    margin-left:390px;
+    text-shadow: 3px 2px 2px rgb(119, 119, 119); 
+    color:rgb(255, 255, 255);
+}
+
+.footer_main{
+    border: 2px solid black;
+    height: 200px;
+    width: auto;
+    background: black;
+    flex-wrap: wrap;
+    
+}
+
+.footer_a {
+    font-size: 18px;
+    text-decoration: 0;
+    padding: 0 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+.footer_a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.footer_nav{
+    margin-left:1000px;
+    margin-top:60px;
+    
+}
+
+.contact{
+    color:white;
+    margin-left:700px;
+    margin-top: -25px;
+    
+    width: 280px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.footer_logo{
+    color:white;
+    
+    margin-top: -120px;
+    margin-left: 200px;
+    height: 174px;
+    width: 290px;
+    
+}
